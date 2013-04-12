@@ -84,6 +84,25 @@
 <smd name="P$7" x="1.7" y="-3.84" dx="2.4" dy="1" layer="1"/>
 <smd name="P$8" x="1.7" y="-3.84" dx="2.4" dy="1" layer="16" rot="R180"/>
 </package>
+<package name="SMD-8-F">
+<wire x1="-4" y1="3" x2="4" y2="3" width="0.127" layer="21"/>
+<wire x1="4" y1="3" x2="4" y2="-4.5" width="0.127" layer="21"/>
+<wire x1="4" y1="-4.5" x2="0.9" y2="-4.5" width="0.127" layer="21"/>
+<wire x1="0.9" y1="-4.5" x2="-0.9" y2="-4.5" width="0.127" layer="21"/>
+<wire x1="-0.9" y1="-4.5" x2="-4" y2="-4.5" width="0.127" layer="21"/>
+<wire x1="-4" y1="-4.5" x2="-4" y2="3" width="0.127" layer="21"/>
+<wire x1="-0.9" y1="-4.5" x2="-0.9" y2="1.27" width="0.127" layer="21"/>
+<wire x1="-0.9" y1="1.27" x2="0.9" y2="1.27" width="0.127" layer="21"/>
+<wire x1="0.9" y1="1.27" x2="0.9" y2="-4.5" width="0.127" layer="21"/>
+<pad name="P$1" x="-3" y="0" drill="0.8"/>
+<pad name="P$2" x="1" y="0" drill="0.8"/>
+<pad name="P$3" x="-1" y="-1.27" drill="0.8"/>
+<pad name="P$4" x="3" y="-1.27" drill="0.8"/>
+<pad name="P$5" x="-3" y="-2.54" drill="0.8"/>
+<pad name="P$6" x="1" y="-2.54" drill="0.8"/>
+<pad name="P$7" x="-1" y="-3.81" drill="0.8"/>
+<pad name="P$8" x="3" y="-3.81" drill="0.8"/>
+</package>
 </packages>
 <symbols>
 <symbol name="CON_PROG-6">
@@ -139,13 +158,28 @@
 <gate name="G$1" symbol="CON_PROG-8" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="SMD-8">
+<device name="SMD-8-M" package="SMD-8">
 <connects>
 <connect gate="G$1" pin="DEBUG_RX" pad="P$4"/>
 <connect gate="G$1" pin="DEBUG_TX" pad="P$3"/>
 <connect gate="G$1" pin="GND" pad="P$6"/>
-<connect gate="G$1" pin="P$1" pad="P$8"/>
-<connect gate="G$1" pin="P$2" pad="P$7"/>
+<connect gate="G$1" pin="P$1" pad="P$7"/>
+<connect gate="G$1" pin="P$2" pad="P$8"/>
+<connect gate="G$1" pin="PDI_CLK" pad="P$5"/>
+<connect gate="G$1" pin="PDI_DATA" pad="P$1"/>
+<connect gate="G$1" pin="VCC" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SMD-8-F" package="SMD-8-F">
+<connects>
+<connect gate="G$1" pin="DEBUG_RX" pad="P$4"/>
+<connect gate="G$1" pin="DEBUG_TX" pad="P$3"/>
+<connect gate="G$1" pin="GND" pad="P$6"/>
+<connect gate="G$1" pin="P$1" pad="P$7"/>
+<connect gate="G$1" pin="P$2" pad="P$8"/>
 <connect gate="G$1" pin="PDI_CLK" pad="P$5"/>
 <connect gate="G$1" pin="PDI_DATA" pad="P$1"/>
 <connect gate="G$1" pin="VCC" pad="P$2"/>
