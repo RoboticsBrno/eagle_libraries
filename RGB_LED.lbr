@@ -98,7 +98,7 @@
 <wire x1="0" y1="0" x2="0" y2="-1" width="0.254" layer="94"/>
 <wire x1="3" y1="0" x2="3" y2="-1" width="0.254" layer="94"/>
 <text x="0.08" y="0" size="1.27" layer="94">G</text>
-<text x="-4.064" y="0" size="1.27" layer="94">R</text>
+<text x="-3.302" y="0" size="1.27" layer="94">R</text>
 <text x="4" y="0" size="1.27" layer="94">B</text>
 <pin name="GREEN" x="0" y="-6" length="middle" rot="R90"/>
 <pin name="RED" x="-3" y="-6" length="middle" rot="R90"/>
@@ -131,8 +131,8 @@
 <connects>
 <connect gate="G$1" pin="ANODE" pad="2"/>
 <connect gate="G$1" pin="BLUE" pad="3"/>
-<connect gate="G$1" pin="GREEN" pad="4"/>
-<connect gate="G$1" pin="RED" pad="1"/>
+<connect gate="G$1" pin="GREEN" pad="1"/>
+<connect gate="G$1" pin="RED" pad="4"/>
 </connects>
 <technologies>
 <technology name=""/>
