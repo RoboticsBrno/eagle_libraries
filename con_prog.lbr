@@ -205,6 +205,16 @@
 <rectangle x1="-2.159" y1="2.032" x2="-1.397" y2="3.048" layer="22" rot="R90"/>
 <text x="-3.81" y="5.08" size="1.27" layer="25">&gt;NAME</text>
 </package>
+<package name="SMD-6-CORNER">
+<wire x1="0" y1="-3.3" x2="0" y2="1.24" width="0.1" layer="20"/>
+<wire x1="0" y1="1.24" x2="3" y2="1.24" width="0.1" layer="20"/>
+<smd name="P$1" x="1.7" y="-0.03" dx="2.4" dy="1" layer="1"/>
+<smd name="P$2" x="1.7" y="-0.03" dx="2.4" dy="1" layer="16" rot="R180"/>
+<smd name="P$3" x="1.7" y="-1.3" dx="2.4" dy="1" layer="1"/>
+<smd name="P$4" x="1.7" y="-1.3" dx="2.4" dy="1" layer="16" rot="R180"/>
+<smd name="P$5" x="1.7" y="-2.57" dx="2.4" dy="1" layer="1"/>
+<smd name="P$6" x="1.7" y="-2.57" dx="2.4" dy="1" layer="16" rot="R180"/>
+</package>
 </packages>
 <symbols>
 <symbol name="CON_PROG-6">
@@ -278,6 +288,16 @@
 <technologies>
 <technology name=""/>
 </technologies>
+</device>
+<device name="CORN" package="SMD-6-CORNER">
+<connects>
+<connect gate="G$1" pin="DEBUG_RX" pad="P$4"/>
+<connect gate="G$1" pin="DEBUG_TX" pad="P$3"/>
+<connect gate="G$1" pin="GND" pad="P$6"/>
+<connect gate="G$1" pin="PDI_CLK" pad="P$5"/>
+<connect gate="G$1" pin="PDI_DATA" pad="P$1"/>
+<connect gate="G$1" pin="VCC" pad="P$2"/>
+</connects>
 </device>
 </devices>
 </deviceset>
