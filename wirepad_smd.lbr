@@ -104,6 +104,9 @@
 <pad name="P$9" x="0" y="-0.9525" drill="0.5"/>
 <smd name="P$10" x="0" y="0" dx="3" dy="5" layer="16" roundness="25"/>
 </package>
+<package name="2X5MM">
+<smd name="1" x="0" y="0" dx="2" dy="5" layer="1" roundness="25"/>
+</package>
 </packages>
 <symbols>
 <symbol name="PAD">
@@ -113,7 +116,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="PAD" prefix="PAD">
+<deviceset name="PAD">
 <gates>
 <gate name="G$1" symbol="PAD" x="0" y="0"/>
 </gates>
@@ -153,6 +156,14 @@
 <device name="_2SIDE_VIAS" package="3X5MM_2SIDE">
 <connects>
 <connect gate="G$1" pin="P$1" pad="P$1 P$2 P$3 P$4 P$5 P$6 P$7 P$8 P$9 P$10"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_1SIDE_LONG" package="2X5MM">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
