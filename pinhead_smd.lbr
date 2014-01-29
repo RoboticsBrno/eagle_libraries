@@ -921,7 +921,25 @@
 <gate name="B8" symbol="PINH1X01" x="-2.54" y="-19.05"/>
 </gates>
 <devices>
-<device name="">
+<device name="" package="PINH2X08SMD">
+<connects>
+<connect gate="B1" pin="1" pad="2"/>
+<connect gate="B2" pin="1" pad="4"/>
+<connect gate="B3" pin="1" pad="6"/>
+<connect gate="B4" pin="1" pad="8"/>
+<connect gate="B5" pin="1" pad="10"/>
+<connect gate="B6" pin="1" pad="12"/>
+<connect gate="B7" pin="1" pad="14"/>
+<connect gate="B8" pin="1" pad="16"/>
+<connect gate="T1" pin="1" pad="1"/>
+<connect gate="T2" pin="1" pad="3"/>
+<connect gate="T3" pin="1" pad="5"/>
+<connect gate="T4" pin="1" pad="7"/>
+<connect gate="T5" pin="1" pad="9"/>
+<connect gate="T6" pin="1" pad="11"/>
+<connect gate="T7" pin="1" pad="13"/>
+<connect gate="T8" pin="1" pad="15"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
