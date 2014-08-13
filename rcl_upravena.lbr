@@ -12472,16 +12472,17 @@ Source: AVX .. aphvc.pdf</description>
 <rectangle x1="0.9517" y1="-0.8491" x2="1.7018" y2="0.8509" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
 </package>
-<package name="R0603_SPACED">
-<wire x1="-0.432" y1="-0.356" x2="0.432" y2="-0.356" width="0.1524" layer="51"/>
-<wire x1="0.432" y1="0.356" x2="-0.432" y2="0.356" width="0.1524" layer="51"/>
-<smd name="1" x="-0.9135" y="0" dx="0.95" dy="1" layer="1" roundness="30"/>
-<smd name="2" x="0.9135" y="0" dx="0.95" dy="1" layer="1" roundness="30"/>
-<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
-<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="0.4318" y1="-0.4318" x2="0.8382" y2="0.4318" layer="51"/>
-<rectangle x1="-0.8382" y1="-0.4318" x2="-0.4318" y2="0.4318" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
+<package name="10-13_SMD">
+<wire x1="0" y1="-5" x2="0" y2="-2" width="0.127" layer="21"/>
+<wire x1="0" y1="-2" x2="0" y2="2" width="0.127" layer="21"/>
+<wire x1="0" y1="2" x2="0" y2="5" width="0.127" layer="21"/>
+<wire x1="0" y1="5" x2="13" y2="5" width="0.127" layer="21"/>
+<wire x1="13" y1="5" x2="13" y2="-5" width="0.127" layer="21"/>
+<wire x1="13" y1="-5" x2="0" y2="-5" width="0.127" layer="21"/>
+<wire x1="0" y1="2" x2="-5" y2="2" width="0.6" layer="21"/>
+<wire x1="0" y1="-2" x2="-5" y2="-2" width="0.6" layer="21"/>
+<smd name="+" x="-3" y="2" dx="4.5" dy="2.54" layer="1"/>
+<smd name="-" x="-3" y="-2" dx="4.5" dy="2.54" layer="16"/>
 </package>
 </packages>
 <symbols>
@@ -14237,6 +14238,15 @@ Source: AVX .. aphvc.pdf</description>
 <technology name=""/>
 </technologies>
 </device>
+<device name="" package="10-13_SMD">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="L-EU" prefix="L" uservalue="yes">
@@ -15604,15 +15614,6 @@ Source: AVX .. aphvc.pdf</description>
 </technologies>
 </device>
 <device name="1812X7R" package="1812X7R">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="R0603_SPACED" package="R0603_SPACED">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
