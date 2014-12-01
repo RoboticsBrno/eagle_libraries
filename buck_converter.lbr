@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="6.4">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="yes"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="yes"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="yes"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="yes"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="yes"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="yes"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="yes"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="yes"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="yes"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="yes"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="100" name="Drawings" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="200" name="200bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="250" name="Descript" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="251" name="SMDround" color="7" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="QFN16_05">
+<description>&lt;b&gt;SMALL square INTEGRATED CIRCUIT&lt;/b&gt;&lt;p&gt;
+wide body 4x4 mm</description>
+<circle x="0" y="0" radius="0.5" width="0.127" layer="21"/>
+<wire x1="1.5" y1="1.5" x2="-1.5" y2="1.5" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="1.5" x2="-1.5" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="-1.5" x2="1.5" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="1.5" y1="-1.5" x2="1.5" y2="1.5" width="0.127" layer="21"/>
+<rectangle x1="-1.35" y1="1.15" x2="-1.15" y2="1.35" layer="21"/>
+<smd name="E_PAD" x="0" y="0" dx="1.7" dy="1.7" layer="1"/>
+<smd name="1" x="-1.8" y="0.75" dx="0.3" dy="1.5" layer="1" rot="R90"/>
+<smd name="2" x="-1.8" y="0.25" dx="0.3" dy="1.5" layer="1" rot="R90"/>
+<smd name="3" x="-1.8" y="-0.25" dx="0.3" dy="1.5" layer="1" rot="R90"/>
+<smd name="4" x="-1.8" y="-0.75" dx="0.3" dy="1.5" layer="1" rot="R90"/>
+<smd name="5" x="-0.75" y="-1.8" dx="0.3" dy="1.5" layer="1"/>
+<smd name="6" x="-0.25" y="-1.8" dx="0.3" dy="1.5" layer="1"/>
+<smd name="7" x="0.25" y="-1.8" dx="0.3" dy="1.5" layer="1"/>
+<smd name="8" x="0.75" y="-1.8" dx="0.3" dy="1.5" layer="1"/>
+<smd name="9" x="1.8" y="-0.75" dx="0.3" dy="1.5" layer="1" rot="R90"/>
+<smd name="10" x="1.8" y="-0.25" dx="0.3" dy="1.5" layer="1" rot="R90"/>
+<smd name="11" x="1.8" y="0.25" dx="0.3" dy="1.5" layer="1" rot="R90"/>
+<smd name="12" x="1.8" y="0.75" dx="0.3" dy="1.5" layer="1" rot="R90"/>
+<smd name="13" x="0.75" y="1.8" dx="0.3" dy="1.5" layer="1"/>
+<smd name="14" x="0.25" y="1.8" dx="0.3" dy="1.5" layer="1"/>
+<smd name="15" x="-0.25" y="1.8" dx="0.3" dy="1.5" layer="1"/>
+<smd name="16" x="-0.75" y="1.8" dx="0.3" dy="1.5" layer="1"/>
+<text x="-3.5" y="2.7" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.5" y="-4" size="1.27" layer="27">&gt;VALUE</text>
+<circle x="-1.25" y="1.25" radius="0.127" width="0" layer="1"/>
+</package>
+</packages>
+<symbols>
+<symbol name="TPS6215*">
+<wire x1="-10.16" y1="15.24" x2="10.16" y2="15.24" width="0.254" layer="94"/>
+<wire x1="10.16" y1="15.24" x2="10.16" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-15.24" x2="-10.16" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-15.24" x2="-10.16" y2="15.24" width="0.254" layer="94"/>
+<pin name="VIN" x="-15.24" y="12.7" length="middle" direction="pwr"/>
+<pin name="AVIN" x="-15.24" y="7.62" length="middle" direction="pwr"/>
+<pin name="EN" x="-15.24" y="2.54" length="middle" direction="in"/>
+<pin name="SS/TR" x="-15.24" y="-2.54" length="middle" direction="pas"/>
+<pin name="DEF" x="-15.24" y="-7.62" length="middle" direction="in"/>
+<pin name="FSW" x="-15.24" y="-12.7" length="middle" direction="in"/>
+<pin name="GND" x="15.24" y="-12.7" length="middle" direction="pwr" rot="R180"/>
+<pin name="FB" x="15.24" y="-2.54" length="middle" direction="pas" rot="R180"/>
+<pin name="PG" x="15.24" y="2.54" length="middle" direction="oc" rot="R180"/>
+<pin name="VOS" x="15.24" y="7.62" length="middle" direction="pas" rot="R180"/>
+<pin name="SW" x="15.24" y="12.7" length="middle" direction="out" rot="R180"/>
+<text x="-9.652" y="16.002" size="1.778" layer="95">&gt;NAME</text>
+<text x="-9.652" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="TPS6215*" prefix="IC">
+<description>&lt;b&gt;3-17V 1A Step-Down Converter in 3x3 QFN Package&lt;/b&gt;&lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;Input Voltage Range: 3 to 17V
+&lt;li&gt;Up to 1A Output Current
+&lt;li&gt;Adjustable Output Voltage from 0.9 to 6V
+&lt;li&gt;Pin-Selectable Output Voltage (nominal, + 5%)
+&lt;li&gt;Programmable Soft Start and Tracking
+&lt;li&gt;Seamless Power Save Mode Transition
+&lt;li&gt;Quiescent Current of 17μA (typ.)
+&lt;li&gt;Selectable Operating Frequency
+&lt;li&gt;Power Good Output
+&lt;li&gt;100% Duty Cycle Mode
+&lt;li&gt;Short Circuit Protection
+&lt;li&gt;Over Temperature Protection
+&lt;li&gt;Available in a 3 × 3 mm, QFN-16 Package
+&lt;/ul&gt;&lt;br&gt;
+&lt;table&gt;
+&lt;tr&gt;&lt;td&gt;adjustable&lt;/td&gt;&lt;td&gt;TPS621 50&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;adjustable, PG=LOW in shutdown&lt;/td&gt;&lt;td&gt;TPS621 50A&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;1.8&amp;nbsp;V&lt;/td&gt;&lt;td&gt;TPS621 51&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;3.3&amp;nbsp;V&lt;/td&gt;&lt;td&gt;TPS621 52&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;5.0&amp;nbsp;V&lt;/td&gt;&lt;td&gt;TPS621 53&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;</description>
+<gates>
+<gate name="G$1" symbol="TPS6215*" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="QFN16_05">
+<connects>
+<connect gate="G$1" pin="AVIN" pad="10"/>
+<connect gate="G$1" pin="DEF" pad="8"/>
+<connect gate="G$1" pin="EN" pad="13"/>
+<connect gate="G$1" pin="FB" pad="5"/>
+<connect gate="G$1" pin="FSW" pad="7"/>
+<connect gate="G$1" pin="GND" pad="6 15 16 E_PAD"/>
+<connect gate="G$1" pin="PG" pad="4"/>
+<connect gate="G$1" pin="SS/TR" pad="9"/>
+<connect gate="G$1" pin="SW" pad="1 2 3"/>
+<connect gate="G$1" pin="VIN" pad="11 12"/>
+<connect gate="G$1" pin="VOS" pad="14"/>
+</connects>
+<technologies>
+<technology name="0">
+<attribute name="OC_FARNELL" value="" constant="no"/>
+<attribute name="V_OUT" value="adjustable"/>
+</technology>
+<technology name="0A">
+<attribute name="OC_FARNELL" value="" constant="no"/>
+<attribute name="V_OUT" value="adjustable (PG=LOW in shutdown)"/>
+</technology>
+<technology name="1">
+<attribute name="OC_FARNELL" value="" constant="no"/>
+<attribute name="V_OUT" value="1.8 V"/>
+</technology>
+<technology name="2">
+<attribute name="OC_FARNELL" value="2382918"/>
+<attribute name="V_OUT" value="3.3 V"/>
+</technology>
+<technology name="3">
+<attribute name="OC_FARNELL" value="" constant="no"/>
+<attribute name="V_OUT" value="5.0 V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>

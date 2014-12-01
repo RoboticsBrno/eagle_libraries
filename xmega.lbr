@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.2" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -1737,6 +1737,330 @@
 <pin name="PA4" x="33.02" y="55.88" visible="pad" length="short" rot="R180"/>
 <pin name="PA5" x="33.02" y="53.34" visible="pad" length="short" rot="R180"/>
 </symbol>
+<symbol name="AVR_XMEGA_A1U">
+<wire x1="53.34" y1="73.66" x2="-53.34" y2="73.66" width="0.254" layer="94"/>
+<wire x1="-53.34" y1="73.66" x2="-53.34" y2="-73.66" width="0.254" layer="94"/>
+<wire x1="-53.34" y1="-73.66" x2="53.34" y2="-73.66" width="0.254" layer="94"/>
+<wire x1="53.34" y1="-73.66" x2="53.34" y2="73.66" width="0.254" layer="94"/>
+<text x="51.054" y="67.818" size="1.6764" layer="95" rot="MR0">PDI_DATA</text>
+<text x="51.054" y="70.358" size="1.6764" layer="95" rot="MR0">!RESET! PDI_CLK </text>
+<text x="43.434" y="61.722" size="1.6764" layer="95" rot="R180">ADC0</text>
+<text x="43.434" y="59.182" size="1.6764" layer="95" rot="R180">ADC1</text>
+<text x="43.434" y="56.642" size="1.6764" layer="95" rot="R180">ADC2</text>
+<text x="43.434" y="54.102" size="1.6764" layer="95" rot="R180">ADC3</text>
+<text x="43.434" y="51.562" size="1.6764" layer="95" rot="R180">ADC4</text>
+<text x="43.434" y="49.022" size="1.6764" layer="95" rot="R180">ADC5</text>
+<text x="43.434" y="46.482" size="1.6764" layer="95" rot="R180">ADC6</text>
+<text x="43.434" y="43.942" size="1.6764" layer="95" rot="R180">ADC7</text>
+<text x="43.434" y="38.862" size="1.6764" layer="95" rot="R180">ADC8</text>
+<text x="43.434" y="36.322" size="1.6764" layer="95" rot="R180">ADC9</text>
+<text x="43.434" y="33.782" size="1.6764" layer="95" rot="R180">ADC10</text>
+<text x="43.434" y="31.242" size="1.6764" layer="95" rot="R180">ADC11</text>
+<text x="43.434" y="28.702" size="1.6764" layer="95" rot="R180">ADC12</text>
+<text x="43.434" y="26.162" size="1.6764" layer="95" rot="R180">ADC13</text>
+<text x="43.434" y="23.622" size="1.6764" layer="95" rot="R180">ADC14</text>
+<text x="43.434" y="21.082" size="1.6764" layer="95" rot="R180">ADC15</text>
+<text x="43.434" y="16.002" size="1.6764" layer="95" rot="R180">SDA</text>
+<text x="43.434" y="13.462" size="1.6764" layer="95" rot="R180">SCL</text>
+<text x="43.434" y="5.842" size="1.6764" layer="95" rot="R180">!SS!</text>
+<text x="43.434" y="3.302" size="1.6764" layer="95" rot="R180">MOSI</text>
+<text x="43.434" y="0.762" size="1.6764" layer="95" rot="R180">MISO</text>
+<text x="43.434" y="-1.778" size="1.6764" layer="95" rot="R180">SCK</text>
+<text x="-21.59" y="69.85" size="1.6764" layer="95">&gt;Name</text>
+<text x="-21.59" y="67.31" size="1.6764" layer="96">&gt;Value</text>
+<pin name="PA6" x="55.88" y="45.72" length="short" rot="R180"/>
+<pin name="PA7" x="55.88" y="43.18" length="short" rot="R180"/>
+<pin name="PB0" x="55.88" y="38.1" length="short" rot="R180"/>
+<pin name="PB1" x="55.88" y="35.56" length="short" rot="R180"/>
+<pin name="PB2" x="55.88" y="33.02" length="short" rot="R180"/>
+<pin name="PB3" x="55.88" y="30.48" length="short" rot="R180"/>
+<pin name="PB4" x="55.88" y="27.94" length="short" rot="R180"/>
+<pin name="PB5" x="55.88" y="25.4" length="short" rot="R180"/>
+<pin name="PB6" x="55.88" y="22.86" length="short" rot="R180"/>
+<pin name="PB7" x="55.88" y="20.32" length="short" rot="R180"/>
+<pin name="GND" x="-55.88" y="33.02" length="short" direction="pwr"/>
+<pin name="VCC" x="-55.88" y="45.72" length="short" direction="pwr"/>
+<pin name="PC0" x="55.88" y="15.24" length="short" rot="R180"/>
+<pin name="PC1" x="55.88" y="12.7" length="short" rot="R180"/>
+<pin name="PC2" x="55.88" y="10.16" length="short" rot="R180"/>
+<pin name="PC3" x="55.88" y="7.62" length="short" rot="R180"/>
+<pin name="PC4" x="55.88" y="5.08" length="short" rot="R180"/>
+<pin name="PC5" x="55.88" y="2.54" length="short" rot="R180"/>
+<pin name="PC6" x="55.88" y="0" length="short" rot="R180"/>
+<pin name="PC7" x="55.88" y="-2.54" length="short" rot="R180"/>
+<pin name="PD0" x="55.88" y="-7.62" length="short" rot="R180"/>
+<pin name="PD1" x="55.88" y="-10.16" length="short" rot="R180"/>
+<pin name="PD2" x="55.88" y="-12.7" length="short" rot="R180"/>
+<pin name="PD3" x="55.88" y="-15.24" length="short" rot="R180"/>
+<pin name="PD4" x="55.88" y="-17.78" length="short" rot="R180"/>
+<pin name="PD5" x="55.88" y="-20.32" length="short" rot="R180"/>
+<pin name="PD6" x="55.88" y="-22.86" length="short" rot="R180"/>
+<pin name="PD7" x="55.88" y="-25.4" length="short" rot="R180"/>
+<pin name="PE0" x="55.88" y="-30.48" length="short" rot="R180"/>
+<pin name="PE1" x="55.88" y="-33.02" length="short" rot="R180"/>
+<pin name="PE2" x="55.88" y="-35.56" length="short" rot="R180"/>
+<pin name="PE3" x="55.88" y="-38.1" length="short" rot="R180"/>
+<pin name="PE4" x="55.88" y="-40.64" length="short" rot="R180"/>
+<pin name="PE5" x="55.88" y="-43.18" length="short" rot="R180"/>
+<pin name="PE6" x="55.88" y="-45.72" length="short" rot="R180"/>
+<pin name="PE7" x="55.88" y="-48.26" length="short" rot="R180"/>
+<pin name="PF0" x="55.88" y="-53.34" length="short" rot="R180"/>
+<pin name="PF1" x="55.88" y="-55.88" length="short" rot="R180"/>
+<pin name="PF2" x="55.88" y="-58.42" length="short" rot="R180"/>
+<pin name="PF3" x="55.88" y="-60.96" length="short" rot="R180"/>
+<pin name="PF4" x="55.88" y="-63.5" length="short" rot="R180"/>
+<pin name="PF5" x="55.88" y="-66.04" length="short" rot="R180"/>
+<pin name="PF6" x="55.88" y="-68.58" length="short" rot="R180"/>
+<pin name="PF7" x="55.88" y="-71.12" length="short" rot="R180"/>
+<pin name="PH0" x="-55.88" y="-53.34" length="short"/>
+<pin name="PH1" x="-55.88" y="-55.88" length="short"/>
+<pin name="PH2" x="-55.88" y="-58.42" length="short"/>
+<pin name="PH3" x="-55.88" y="-60.96" length="short"/>
+<pin name="PH4" x="-55.88" y="-63.5" length="short"/>
+<pin name="PH5" x="-55.88" y="-66.04" length="short"/>
+<pin name="PH6" x="-55.88" y="-68.58" length="short"/>
+<pin name="PH7" x="-55.88" y="-71.12" length="short"/>
+<pin name="PJ0" x="-55.88" y="-30.48" length="short"/>
+<pin name="PJ1" x="-55.88" y="-33.02" length="short"/>
+<pin name="PJ2" x="-55.88" y="-35.56" length="short"/>
+<pin name="PJ3" x="-55.88" y="-38.1" length="short"/>
+<pin name="PJ4" x="-55.88" y="-40.64" length="short"/>
+<pin name="PJ5" x="-55.88" y="-43.18" length="short"/>
+<pin name="PJ6" x="-55.88" y="-45.72" length="short"/>
+<pin name="PJ7" x="-55.88" y="-48.26" length="short"/>
+<pin name="PK0" x="-55.88" y="-7.62" length="short"/>
+<pin name="PK1" x="-55.88" y="-10.16" length="short"/>
+<pin name="PK2" x="-55.88" y="-12.7" length="short"/>
+<pin name="PK3" x="-55.88" y="-15.24" length="short"/>
+<pin name="PK4" x="-55.88" y="-17.78" length="short"/>
+<pin name="PK5" x="-55.88" y="-20.32" length="short"/>
+<pin name="PK6" x="-55.88" y="-22.86" length="short"/>
+<pin name="PK7" x="-55.88" y="-25.4" length="short"/>
+<pin name="PQ0" x="-55.88" y="5.08" length="short"/>
+<pin name="PQ1" x="-55.88" y="2.54" length="short"/>
+<pin name="PQ2" x="-55.88" y="0" length="short"/>
+<pin name="PQ3" x="-55.88" y="-2.54" length="short"/>
+<pin name="PDI_DATA" x="55.88" y="68.58" visible="pad" length="short" rot="R180"/>
+<pin name="RESET" x="55.88" y="71.12" visible="pad" length="short" direction="in" rot="R180"/>
+<pin name="PR0" x="-55.88" y="12.7" length="short"/>
+<pin name="PR1" x="-55.88" y="10.16" length="short"/>
+<pin name="AGND" x="-55.88" y="58.42" length="short" direction="pwr"/>
+<pin name="AVCC" x="-55.88" y="71.12" length="short" direction="pwr"/>
+<pin name="PA0" x="55.88" y="60.96" length="short" rot="R180"/>
+<pin name="PA1" x="55.88" y="58.42" length="short" rot="R180"/>
+<pin name="PA2" x="55.88" y="55.88" length="short" rot="R180"/>
+<pin name="PA3" x="55.88" y="53.34" length="short" rot="R180"/>
+<pin name="PA4" x="55.88" y="50.8" length="short" rot="R180"/>
+<pin name="PA5" x="55.88" y="48.26" length="short" rot="R180"/>
+<text x="26.67" y="-22.098" size="1.6764" layer="95" rot="R180">D-</text>
+<text x="26.67" y="-24.638" size="1.6764" layer="95" rot="R180">D+</text>
+<text x="-35.814" y="-52.578" size="1.6764" layer="95" rot="MR180">!WE!</text>
+<text x="-35.814" y="-55.118" size="1.6764" layer="95" rot="MR180">!RE!</text>
+<text x="-35.814" y="-57.658" size="1.6764" layer="95" rot="MR180">!ALE1!</text>
+<text x="-35.814" y="-60.198" size="1.6764" layer="95" rot="MR180">!ALE2!</text>
+<text x="-35.814" y="-62.738" size="1.6764" layer="95" rot="MR180">BA0</text>
+<text x="-35.814" y="-65.278" size="1.6764" layer="95" rot="MR180">BA1</text>
+<text x="-35.814" y="-67.818" size="1.6764" layer="95" rot="MR180">CKE</text>
+<text x="-35.814" y="-70.358" size="1.6764" layer="95" rot="MR180">CLK</text>
+<text x="-43.434" y="-29.718" size="1.6764" layer="95" rot="MR180">D0</text>
+<text x="-43.434" y="-32.258" size="1.6764" layer="95" rot="MR180">D1</text>
+<text x="-43.434" y="-34.798" size="1.6764" layer="95" rot="MR180">D2</text>
+<text x="-43.434" y="-37.338" size="1.6764" layer="95" rot="MR180">D3</text>
+<text x="-43.434" y="-39.878" size="1.6764" layer="95" rot="MR180">D4</text>
+<text x="-43.434" y="-42.418" size="1.6764" layer="95" rot="MR180">D5</text>
+<text x="-43.434" y="-44.958" size="1.6764" layer="95" rot="MR180">D6</text>
+<text x="-43.434" y="-47.498" size="1.6764" layer="95" rot="MR180">D7</text>
+<text x="-28.194" y="-29.718" size="1.6764" layer="95" rot="MR180">A0</text>
+<text x="-28.194" y="-32.258" size="1.6764" layer="95" rot="MR180">A1</text>
+<text x="-28.194" y="-34.798" size="1.6764" layer="95" rot="MR180">A2</text>
+<text x="-28.194" y="-37.338" size="1.6764" layer="95" rot="MR180">A3</text>
+<text x="-28.194" y="-62.738" size="1.6764" layer="95" rot="MR180">A20</text>
+<text x="-28.194" y="-65.278" size="1.6764" layer="95" rot="MR180">A21</text>
+<text x="-28.194" y="-67.818" size="1.6764" layer="95" rot="MR180">A22</text>
+<text x="-28.194" y="-70.358" size="1.6764" layer="95" rot="MR180">A23</text>
+<text x="-43.434" y="5.842" size="1.6764" layer="95" rot="MR180">TOSC1</text>
+<text x="-43.434" y="3.302" size="1.6764" layer="95" rot="MR180">TOSC2</text>
+<text x="-43.434" y="0.762" size="1.6764" layer="95" rot="MR180">ASYNC</text>
+<text x="-43.434" y="11.938" size="1.6764" layer="95">XTAL2</text>
+<text x="-43.434" y="9.398" size="1.6764" layer="95">XTAL1</text>
+<text x="-28.194" y="-39.878" size="1.6764" layer="95" rot="MR180">A4</text>
+<text x="-28.194" y="-42.418" size="1.6764" layer="95" rot="MR180">A5</text>
+<text x="-28.194" y="-44.958" size="1.6764" layer="95" rot="MR180">A6</text>
+<text x="-28.194" y="-47.498" size="1.6764" layer="95" rot="MR180">A7</text>
+<text x="-20.574" y="-39.878" size="1.6764" layer="95" rot="MR180">A8</text>
+<text x="-20.574" y="-42.418" size="1.6764" layer="95" rot="MR180">A9</text>
+<text x="-20.574" y="-44.958" size="1.6764" layer="95" rot="MR180">A10</text>
+<text x="-20.574" y="-47.498" size="1.6764" layer="95" rot="MR180">A11</text>
+<text x="-28.194" y="-6.858" size="1.6764" layer="95" rot="MR180">A16</text>
+<text x="-28.194" y="-9.398" size="1.6764" layer="95" rot="MR180">A17</text>
+<text x="-28.194" y="-11.938" size="1.6764" layer="95" rot="MR180">A18</text>
+<text x="-28.194" y="-14.478" size="1.6764" layer="95" rot="MR180">A19</text>
+<text x="-43.434" y="-55.118" size="1.6764" layer="95" rot="MR180">!CAS!</text>
+<text x="-43.434" y="-57.658" size="1.6764" layer="95" rot="MR180">!RAS!</text>
+<text x="-43.434" y="-60.198" size="1.6764" layer="95" rot="MR180">!DQM!</text>
+<text x="-43.434" y="-62.738" size="1.6764" layer="95" rot="MR180">!CS0!</text>
+<text x="-43.434" y="-65.278" size="1.6764" layer="95" rot="MR180">!CS1!</text>
+<text x="-43.434" y="-67.818" size="1.6764" layer="95" rot="MR180">!CS2!</text>
+<text x="-43.434" y="-70.358" size="1.6764" layer="95" rot="MR180">!CS3!</text>
+<text x="-43.434" y="-6.858" size="1.6764" layer="95" rot="MR180">A0</text>
+<text x="-43.434" y="-9.398" size="1.6764" layer="95" rot="MR180">A1</text>
+<text x="-43.434" y="-11.938" size="1.6764" layer="95" rot="MR180">A2</text>
+<text x="-43.434" y="-14.478" size="1.6764" layer="95" rot="MR180">A3</text>
+<text x="-43.434" y="-17.018" size="1.6764" layer="95" rot="MR180">A4</text>
+<text x="-43.434" y="-19.558" size="1.6764" layer="95" rot="MR180">A5</text>
+<text x="-43.434" y="-22.098" size="1.6764" layer="95" rot="MR180">A6</text>
+<text x="-43.434" y="-24.638" size="1.6764" layer="95" rot="MR180">A7</text>
+<text x="-35.814" y="-29.718" size="1.6764" layer="95" rot="MR180">A8</text>
+<text x="-35.814" y="-32.258" size="1.6764" layer="95" rot="MR180">A9</text>
+<text x="-35.814" y="-34.798" size="1.6764" layer="95" rot="MR180">A10</text>
+<text x="-35.814" y="-37.338" size="1.6764" layer="95" rot="MR180">A11</text>
+<text x="-35.814" y="-39.878" size="1.6764" layer="95" rot="MR180">A12</text>
+<text x="-35.814" y="-42.418" size="1.6764" layer="95" rot="MR180">A13</text>
+<text x="-35.814" y="-44.958" size="1.6764" layer="95" rot="MR180">A14</text>
+<text x="-35.814" y="-47.498" size="1.6764" layer="95" rot="MR180">A15</text>
+<text x="-35.814" y="-6.858" size="1.6764" layer="95" rot="MR180">A8</text>
+<text x="-35.814" y="-9.398" size="1.6764" layer="95" rot="MR180">A9</text>
+<text x="-35.814" y="-11.938" size="1.6764" layer="95" rot="MR180">A10</text>
+<text x="-35.814" y="-14.478" size="1.6764" layer="95" rot="MR180">A11</text>
+<text x="-35.814" y="-17.018" size="1.6764" layer="95" rot="MR180">A12</text>
+<text x="-35.814" y="-19.558" size="1.6764" layer="95" rot="MR180">A13</text>
+<text x="-35.814" y="-22.098" size="1.6764" layer="95" rot="MR180">A14</text>
+<text x="-35.814" y="-24.638" size="1.6764" layer="95" rot="MR180">A15</text>
+<text x="-20.574" y="-11.938" size="1.6764" layer="95" rot="MR180">ASYNC</text>
+<text x="-20.574" y="-34.798" size="1.6764" layer="95" rot="MR180">ASYNC</text>
+<text x="-28.194" y="-57.658" size="1.6764" layer="95" rot="MR180">ASYNC</text>
+<text x="33.274" y="61.722" size="1.6764" layer="95" rot="R180">AC0</text>
+<text x="33.274" y="59.182" size="1.6764" layer="95" rot="R180">AC1</text>
+<text x="33.274" y="56.642" size="1.6764" layer="95" rot="R180">AC2</text>
+<text x="33.274" y="54.102" size="1.6764" layer="95" rot="R180">AC3</text>
+<text x="33.274" y="51.562" size="1.6764" layer="95" rot="R180">AC4</text>
+<text x="33.274" y="49.022" size="1.6764" layer="95" rot="R180">AC5</text>
+<text x="33.274" y="46.482" size="1.6764" layer="95" rot="R180">AC6</text>
+<text x="33.274" y="43.942" size="1.6764" layer="95" rot="R180">AC7</text>
+<text x="25.654" y="61.722" size="1.6764" layer="95" rot="R180">AREF</text>
+<text x="25.654" y="56.642" size="1.6764" layer="95" rot="R180">DAC0</text>
+<text x="25.654" y="54.102" size="1.6764" layer="95" rot="R180">DAC1</text>
+<text x="25.654" y="46.482" size="1.6764" layer="95" rot="R180">AC1OUT</text>
+<text x="25.654" y="43.942" size="1.6764" layer="95" rot="R180">AC0OUT</text>
+<text x="12.954" y="28.702" size="1.6764" layer="95" rot="R180">TMS</text>
+<text x="12.954" y="26.162" size="1.6764" layer="95" rot="R180">TDI</text>
+<text x="12.954" y="23.622" size="1.6764" layer="95" rot="R180">TCK</text>
+<text x="12.954" y="21.082" size="1.6764" layer="95" rot="R180">TDO</text>
+<text x="33.274" y="38.862" size="1.6764" layer="95" rot="R180">AC0</text>
+<text x="33.274" y="36.322" size="1.6764" layer="95" rot="R180">AC1</text>
+<text x="33.274" y="33.782" size="1.6764" layer="95" rot="R180">AC2</text>
+<text x="33.274" y="31.242" size="1.6764" layer="95" rot="R180">AC3</text>
+<text x="33.274" y="28.702" size="1.6764" layer="95" rot="R180">AC4</text>
+<text x="33.274" y="26.162" size="1.6764" layer="95" rot="R180">AC5</text>
+<text x="33.274" y="23.622" size="1.6764" layer="95" rot="R180">AC6</text>
+<text x="33.274" y="21.082" size="1.6764" layer="95" rot="R180">AC7</text>
+<text x="25.654" y="38.862" size="1.6764" layer="95" rot="R180">AREF</text>
+<text x="25.654" y="33.782" size="1.6764" layer="95" rot="R180">DAC0</text>
+<text x="25.654" y="31.242" size="1.6764" layer="95" rot="R180">DAC1</text>
+<text x="25.654" y="23.622" size="1.6764" layer="95" rot="R180">AC1OUT</text>
+<text x="25.654" y="21.082" size="1.6764" layer="95" rot="R180">AC0OUT</text>
+<text x="12.954" y="56.642" size="1.6764" layer="95" rot="R180">ASYNC</text>
+<text x="12.954" y="33.782" size="1.6764" layer="95" rot="R180">ASYNC</text>
+<text x="35.814" y="13.462" size="1.6764" layer="95" rot="R180">XCK0</text>
+<text x="35.814" y="10.922" size="1.6764" layer="95" rot="R180">RXD0</text>
+<text x="35.814" y="8.382" size="1.6764" layer="95" rot="R180">TXD0</text>
+<text x="35.814" y="3.302" size="1.6764" layer="95" rot="R180">XCK1</text>
+<text x="35.814" y="0.762" size="1.6764" layer="95" rot="R180">RXD1</text>
+<text x="35.814" y="-1.778" size="1.6764" layer="95" rot="R180">TXD1</text>
+<text x="18.034" y="16.002" size="1.6764" layer="95" rot="R180">!OC0AL!</text>
+<text x="18.034" y="13.462" size="1.6764" layer="95" rot="R180">OC0AH</text>
+<text x="18.034" y="10.922" size="1.6764" layer="95" rot="R180">!OC0BL!</text>
+<text x="18.034" y="8.382" size="1.6764" layer="95" rot="R180">OC0BH</text>
+<text x="18.034" y="5.842" size="1.6764" layer="95" rot="R180">!OC0CL!</text>
+<text x="18.034" y="3.302" size="1.6764" layer="95" rot="R180">OC0CH</text>
+<text x="18.034" y="0.762" size="1.6764" layer="95" rot="R180">!OC0DL!</text>
+<text x="18.034" y="-1.778" size="1.6764" layer="95" rot="R180">OC0DH</text>
+<text x="26.67" y="16.002" size="1.6764" layer="95" rot="R180">OC0A</text>
+<text x="26.67" y="13.462" size="1.6764" layer="95" rot="R180">OC0B</text>
+<text x="26.67" y="10.922" size="1.6764" layer="95" rot="R180">OC0C</text>
+<text x="26.67" y="8.382" size="1.6764" layer="95" rot="R180">OC0D</text>
+<text x="26.67" y="5.842" size="1.6764" layer="95" rot="R180">OCA1</text>
+<text x="26.67" y="3.302" size="1.6764" layer="95" rot="R180">OC1B</text>
+<text x="7.874" y="0.762" size="1.6764" layer="95" rot="R180">CLKRTC</text>
+<text x="7.874" y="-1.778" size="1.6764" layer="95" rot="R180">CLKOUT</text>
+<text x="-3.556" y="5.842" size="1.6764" layer="95" rot="R180">EVOUT</text>
+<text x="7.874" y="5.842" size="1.6764" layer="95" rot="R180">CLKOUT</text>
+<text x="-3.556" y="-1.778" size="1.6764" layer="95" rot="R180">EVOUT</text>
+<text x="7.874" y="10.922" size="1.6764" layer="95" rot="R180">ASYNC</text>
+<text x="43.434" y="-6.858" size="1.6764" layer="95" rot="R180">SDA</text>
+<text x="43.434" y="-9.398" size="1.6764" layer="95" rot="R180">SCL</text>
+<text x="43.434" y="-17.018" size="1.6764" layer="95" rot="R180">!SS!</text>
+<text x="43.434" y="-19.558" size="1.6764" layer="95" rot="R180">MOSI</text>
+<text x="43.434" y="-22.098" size="1.6764" layer="95" rot="R180">MISO</text>
+<text x="43.434" y="-24.638" size="1.6764" layer="95" rot="R180">SCK</text>
+<text x="35.814" y="-9.398" size="1.6764" layer="95" rot="R180">XCK0</text>
+<text x="35.814" y="-11.938" size="1.6764" layer="95" rot="R180">RXD0</text>
+<text x="35.814" y="-14.478" size="1.6764" layer="95" rot="R180">TXD0</text>
+<text x="35.814" y="-19.558" size="1.6764" layer="95" rot="R180">XCK1</text>
+<text x="35.814" y="-22.098" size="1.6764" layer="95" rot="R180">RXD1</text>
+<text x="35.814" y="-24.638" size="1.6764" layer="95" rot="R180">TXD1</text>
+<text x="26.67" y="-6.858" size="1.6764" layer="95" rot="R180">OC0A</text>
+<text x="26.67" y="-9.398" size="1.6764" layer="95" rot="R180">OC0B</text>
+<text x="26.67" y="-11.938" size="1.6764" layer="95" rot="R180">OC0C</text>
+<text x="26.67" y="-14.478" size="1.6764" layer="95" rot="R180">OC0D</text>
+<text x="26.67" y="-17.018" size="1.6764" layer="95" rot="R180">OCA1</text>
+<text x="26.67" y="-19.558" size="1.6764" layer="95" rot="R180">OC1B</text>
+<text x="7.874" y="-24.638" size="1.6764" layer="95" rot="R180">CLKOUT</text>
+<text x="-3.556" y="-17.018" size="1.6764" layer="95" rot="R180">EVOUT</text>
+<text x="7.874" y="-17.018" size="1.6764" layer="95" rot="R180">CLKOUT</text>
+<text x="-3.556" y="-24.638" size="1.6764" layer="95" rot="R180">EVOUT</text>
+<text x="7.874" y="-11.938" size="1.6764" layer="95" rot="R180">ASYNC</text>
+<text x="43.434" y="-29.718" size="1.6764" layer="95" rot="R180">SDA</text>
+<text x="43.434" y="-32.258" size="1.6764" layer="95" rot="R180">SCL</text>
+<text x="43.434" y="-39.878" size="1.6764" layer="95" rot="R180">!SS!</text>
+<text x="43.434" y="-42.418" size="1.6764" layer="95" rot="R180">MOSI</text>
+<text x="43.434" y="-44.958" size="1.6764" layer="95" rot="R180">MISO</text>
+<text x="43.434" y="-47.498" size="1.6764" layer="95" rot="R180">SCK</text>
+<text x="35.814" y="-32.258" size="1.6764" layer="95" rot="R180">XCK0</text>
+<text x="35.814" y="-34.798" size="1.6764" layer="95" rot="R180">RXD0</text>
+<text x="35.814" y="-37.338" size="1.6764" layer="95" rot="R180">TXD0</text>
+<text x="35.814" y="-42.418" size="1.6764" layer="95" rot="R180">XCK1</text>
+<text x="35.814" y="-44.958" size="1.6764" layer="95" rot="R180">RXD1</text>
+<text x="35.814" y="-47.498" size="1.6764" layer="95" rot="R180">TXD1</text>
+<text x="18.034" y="-29.718" size="1.6764" layer="95" rot="R180">!OC0AL!</text>
+<text x="18.034" y="-32.258" size="1.6764" layer="95" rot="R180">OC0AH</text>
+<text x="18.034" y="-34.798" size="1.6764" layer="95" rot="R180">!OC0BL!</text>
+<text x="18.034" y="-37.338" size="1.6764" layer="95" rot="R180">OC0BH</text>
+<text x="18.034" y="-39.878" size="1.6764" layer="95" rot="R180">!OC0CL!</text>
+<text x="18.034" y="-42.418" size="1.6764" layer="95" rot="R180">OC0CH</text>
+<text x="18.034" y="-44.958" size="1.6764" layer="95" rot="R180">!OC0DL!</text>
+<text x="18.034" y="-47.498" size="1.6764" layer="95" rot="R180">OC0DH</text>
+<text x="26.67" y="-29.718" size="1.6764" layer="95" rot="R180">OC0A</text>
+<text x="26.67" y="-32.258" size="1.6764" layer="95" rot="R180">OC0B</text>
+<text x="26.67" y="-34.798" size="1.6764" layer="95" rot="R180">OC0C</text>
+<text x="26.67" y="-37.338" size="1.6764" layer="95" rot="R180">OC0D</text>
+<text x="26.67" y="-39.878" size="1.6764" layer="95" rot="R180">OCA1</text>
+<text x="26.67" y="-42.418" size="1.6764" layer="95" rot="R180">OC1B</text>
+<text x="7.874" y="-47.498" size="1.6764" layer="95" rot="R180">CLKOUT</text>
+<text x="-3.556" y="-39.878" size="1.6764" layer="95" rot="R180">EVOUT</text>
+<text x="7.874" y="-39.878" size="1.6764" layer="95" rot="R180">CLKOUT</text>
+<text x="-3.556" y="-47.498" size="1.6764" layer="95" rot="R180">EVOUT</text>
+<text x="7.874" y="-34.798" size="1.6764" layer="95" rot="R180">ASYNC</text>
+<text x="43.434" y="-52.578" size="1.6764" layer="95" rot="R180">SDA</text>
+<text x="43.434" y="-55.118" size="1.6764" layer="95" rot="R180">SCL</text>
+<text x="43.434" y="-62.738" size="1.6764" layer="95" rot="R180">!SS!</text>
+<text x="43.434" y="-65.278" size="1.6764" layer="95" rot="R180">MOSI</text>
+<text x="43.434" y="-67.818" size="1.6764" layer="95" rot="R180">MISO</text>
+<text x="43.434" y="-70.358" size="1.6764" layer="95" rot="R180">SCK</text>
+<text x="35.814" y="-55.118" size="1.6764" layer="95" rot="R180">XCK0</text>
+<text x="35.814" y="-57.658" size="1.6764" layer="95" rot="R180">RXD0</text>
+<text x="35.814" y="-60.198" size="1.6764" layer="95" rot="R180">TXD0</text>
+<text x="35.814" y="-65.278" size="1.6764" layer="95" rot="R180">XCK1</text>
+<text x="35.814" y="-67.818" size="1.6764" layer="95" rot="R180">RXD1</text>
+<text x="35.814" y="-70.358" size="1.6764" layer="95" rot="R180">TXD1</text>
+<text x="26.67" y="-52.578" size="1.6764" layer="95" rot="R180">OC0A</text>
+<text x="26.67" y="-55.118" size="1.6764" layer="95" rot="R180">OC0B</text>
+<text x="26.67" y="-57.658" size="1.6764" layer="95" rot="R180">OC0C</text>
+<text x="26.67" y="-60.198" size="1.6764" layer="95" rot="R180">OC0D</text>
+<text x="26.67" y="-62.738" size="1.6764" layer="95" rot="R180">OCA1</text>
+<text x="26.67" y="-65.278" size="1.6764" layer="95" rot="R180">OC1B</text>
+<text x="18.034" y="-57.658" size="1.6764" layer="95" rot="R180">ASYNC</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="AVR_XMEGA_A1_" prefix="IC">
@@ -2640,7 +2964,111 @@
 <connect gate="G$1" pin="VCC5" pad="53"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="128"/>
+<technology name="16"/>
+<technology name="32"/>
+<technology name="64"/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ATXMEGA*A1U" prefix="IC">
+<gates>
+<gate name="B" symbol="AVR_XMEGA_A1U" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-AU" package="TQFP100">
+<connects>
+<connect gate="B" pin="AGND" pad="3 93"/>
+<connect gate="B" pin="AVCC" pad="4 94"/>
+<connect gate="B" pin="GND" pad="13 23 33 43 53 63 73 83"/>
+<connect gate="B" pin="PA0" pad="95"/>
+<connect gate="B" pin="PA1" pad="96"/>
+<connect gate="B" pin="PA2" pad="97"/>
+<connect gate="B" pin="PA3" pad="98"/>
+<connect gate="B" pin="PA4" pad="99"/>
+<connect gate="B" pin="PA5" pad="100"/>
+<connect gate="B" pin="PA6" pad="1"/>
+<connect gate="B" pin="PA7" pad="2"/>
+<connect gate="B" pin="PB0" pad="5"/>
+<connect gate="B" pin="PB1" pad="6"/>
+<connect gate="B" pin="PB2" pad="7"/>
+<connect gate="B" pin="PB3" pad="8"/>
+<connect gate="B" pin="PB4" pad="9"/>
+<connect gate="B" pin="PB5" pad="10"/>
+<connect gate="B" pin="PB6" pad="11"/>
+<connect gate="B" pin="PB7" pad="12"/>
+<connect gate="B" pin="PC0" pad="15"/>
+<connect gate="B" pin="PC1" pad="16"/>
+<connect gate="B" pin="PC2" pad="17"/>
+<connect gate="B" pin="PC3" pad="18"/>
+<connect gate="B" pin="PC4" pad="19"/>
+<connect gate="B" pin="PC5" pad="20"/>
+<connect gate="B" pin="PC6" pad="21"/>
+<connect gate="B" pin="PC7" pad="22"/>
+<connect gate="B" pin="PD0" pad="25"/>
+<connect gate="B" pin="PD1" pad="26"/>
+<connect gate="B" pin="PD2" pad="27"/>
+<connect gate="B" pin="PD3" pad="28"/>
+<connect gate="B" pin="PD4" pad="29"/>
+<connect gate="B" pin="PD5" pad="30"/>
+<connect gate="B" pin="PD6" pad="31"/>
+<connect gate="B" pin="PD7" pad="32"/>
+<connect gate="B" pin="PDI_DATA" pad="89"/>
+<connect gate="B" pin="PE0" pad="35"/>
+<connect gate="B" pin="PE1" pad="36"/>
+<connect gate="B" pin="PE2" pad="37"/>
+<connect gate="B" pin="PE3" pad="38"/>
+<connect gate="B" pin="PE4" pad="39"/>
+<connect gate="B" pin="PE5" pad="40"/>
+<connect gate="B" pin="PE6" pad="41"/>
+<connect gate="B" pin="PE7" pad="42"/>
+<connect gate="B" pin="PF0" pad="45"/>
+<connect gate="B" pin="PF1" pad="46"/>
+<connect gate="B" pin="PF2" pad="47"/>
+<connect gate="B" pin="PF3" pad="48"/>
+<connect gate="B" pin="PF4" pad="49"/>
+<connect gate="B" pin="PF5" pad="50"/>
+<connect gate="B" pin="PF6" pad="51"/>
+<connect gate="B" pin="PF7" pad="52"/>
+<connect gate="B" pin="PH0" pad="55"/>
+<connect gate="B" pin="PH1" pad="56"/>
+<connect gate="B" pin="PH2" pad="57"/>
+<connect gate="B" pin="PH3" pad="58"/>
+<connect gate="B" pin="PH4" pad="59"/>
+<connect gate="B" pin="PH5" pad="60"/>
+<connect gate="B" pin="PH6" pad="61"/>
+<connect gate="B" pin="PH7" pad="62"/>
+<connect gate="B" pin="PJ0" pad="65"/>
+<connect gate="B" pin="PJ1" pad="66"/>
+<connect gate="B" pin="PJ2" pad="67"/>
+<connect gate="B" pin="PJ3" pad="68"/>
+<connect gate="B" pin="PJ4" pad="69"/>
+<connect gate="B" pin="PJ5" pad="70"/>
+<connect gate="B" pin="PJ6" pad="71"/>
+<connect gate="B" pin="PJ7" pad="72"/>
+<connect gate="B" pin="PK0" pad="75"/>
+<connect gate="B" pin="PK1" pad="76"/>
+<connect gate="B" pin="PK2" pad="77"/>
+<connect gate="B" pin="PK3" pad="78"/>
+<connect gate="B" pin="PK4" pad="79"/>
+<connect gate="B" pin="PK5" pad="80"/>
+<connect gate="B" pin="PK6" pad="81"/>
+<connect gate="B" pin="PK7" pad="82"/>
+<connect gate="B" pin="PQ0" pad="85"/>
+<connect gate="B" pin="PQ1" pad="86"/>
+<connect gate="B" pin="PQ2" pad="87"/>
+<connect gate="B" pin="PQ3" pad="88"/>
+<connect gate="B" pin="PR0" pad="91"/>
+<connect gate="B" pin="PR1" pad="92"/>
+<connect gate="B" pin="RESET" pad="90"/>
+<connect gate="B" pin="VCC" pad="14 24 34 44 54 64 74 84"/>
+</connects>
+<technologies>
+<technology name="128"/>
+<technology name="16"/>
+<technology name="32"/>
+<technology name="64"/>
 </technologies>
 </device>
 </devices>
