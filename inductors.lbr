@@ -107,6 +107,26 @@
 </polygon>
 <text x="-4" y="4.25" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 </package>
+<package name="4X4MM">
+<smd name="1" x="-1.525" y="0" dx="1.5" dy="3.6" layer="1" roundness="20"/>
+<smd name="2" x="1.525" y="0" dx="1.5" dy="3.6" layer="1" roundness="20"/>
+<wire x1="-2" y1="2" x2="2" y2="2" width="0.127" layer="21"/>
+<wire x1="2" y1="2" x2="2" y2="-2" width="0.127" layer="21"/>
+<wire x1="2" y1="-2" x2="-2" y2="-2" width="0.127" layer="21"/>
+<wire x1="-2" y1="-2" x2="-2" y2="2" width="0.127" layer="21"/>
+<text x="-2" y="2.2" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2" y="-3.5" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="3X3MM">
+<smd name="1" x="-1" y="0" dx="1.4" dy="3.2" layer="1" roundness="20"/>
+<smd name="2" x="1" y="0" dx="1.4" dy="3.2" layer="1" roundness="20"/>
+<wire x1="-1.5" y1="1.5" x2="1.5" y2="1.5" width="0.127" layer="21"/>
+<wire x1="1.5" y1="1.5" x2="1.5" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="1.5" y1="-1.5" x2="-1.5" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="-1.5" x2="-1.5" y2="1.5" width="0.127" layer="21"/>
+<text x="-2" y="1.7" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2" y="-3" size="1.27" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="L">
@@ -155,6 +175,24 @@
 </technologies>
 </device>
 <device name="8X8MM" package="8X8MM">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="4X4MM" package="4X4MM">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="3X3MM" package="3X3MM">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
