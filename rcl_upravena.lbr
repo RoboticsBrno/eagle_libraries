@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -12484,6 +12484,21 @@ Source: AVX .. aphvc.pdf</description>
 <smd name="+" x="-3" y="2" dx="4.5" dy="2.54" layer="1"/>
 <smd name="-" x="-3" y="-2" dx="4.5" dy="2.54" layer="16"/>
 </package>
+<package name="C0402MIN">
+<wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="51"/>
+<wire x1="0.245" y1="-0.224" x2="-0.245" y2="-0.224" width="0.1524" layer="51"/>
+<wire x1="-0.838" y1="0.483" x2="0.838" y2="0.483" width="0.0508" layer="39"/>
+<wire x1="0.838" y1="0.483" x2="0.838" y2="-0.483" width="0.0508" layer="39"/>
+<wire x1="0.838" y1="-0.483" x2="-0.838" y2="-0.483" width="0.0508" layer="39"/>
+<wire x1="-0.838" y1="-0.483" x2="-0.838" y2="0.483" width="0.0508" layer="39"/>
+<smd name="1" x="-0.4" y="0" dx="0.5" dy="0.7" layer="1"/>
+<smd name="2" x="0.4" y="0" dx="0.5" dy="0.7" layer="1"/>
+<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.2951" layer="51"/>
+<rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
+</package>
 </packages>
 <symbols>
 <symbol name="C-EU">
@@ -16378,6 +16393,15 @@ Source: AVX .. aphvc.pdf</description>
 </technologies>
 </device>
 <device name="C0805" package="C0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="C0402MIN" package="C0402MIN">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
