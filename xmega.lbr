@@ -2981,7 +2981,7 @@
 <connects>
 <connect gate="B" pin="AGND" pad="3 93"/>
 <connect gate="B" pin="AVCC" pad="4 94"/>
-<connect gate="B" pin="GND" pad="13 23 33 43 53 63 73 83"/>
+<connect gate="B" pin="GND" pad="13 23 33 43 53 63 73 84"/>
 <connect gate="B" pin="PA0" pad="95"/>
 <connect gate="B" pin="PA1" pad="96"/>
 <connect gate="B" pin="PA2" pad="97"/>
@@ -3062,12 +3062,10 @@
 <connect gate="B" pin="PR0" pad="91"/>
 <connect gate="B" pin="PR1" pad="92"/>
 <connect gate="B" pin="RESET" pad="90"/>
-<connect gate="B" pin="VCC" pad="14 24 34 44 54 64 74 84"/>
+<connect gate="B" pin="VCC" pad="14 24 34 44 54 64 74 83"/>
 </connects>
 <technologies>
 <technology name="128"/>
-<technology name="16"/>
-<technology name="32"/>
 <technology name="64"/>
 </technologies>
 </device>
