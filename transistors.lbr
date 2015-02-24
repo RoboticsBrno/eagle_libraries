@@ -218,6 +218,19 @@ INTERNATIONAL RECTIFIER, irg4bc15ud-s.pdf</description>
 <rectangle x1="-0.225" y1="0.8" x2="0.225" y2="1.4" layer="51"/>
 <rectangle x1="-1.175" y1="0.8" x2="-0.725" y2="1.4" layer="51"/>
 </package>
+<package name="MICROFOOT">
+<wire x1="-0.75" y1="0.5" x2="0.75" y2="0.5" width="0.127" layer="21"/>
+<wire x1="0.75" y1="0.5" x2="0.75" y2="-0.5" width="0.127" layer="21"/>
+<wire x1="0.75" y1="-0.5" x2="-0.75" y2="-0.5" width="0.127" layer="21"/>
+<wire x1="-0.75" y1="-0.5" x2="-0.75" y2="0.5" width="0.127" layer="21"/>
+<smd name="1" x="-0.5" y="-0.25" dx="0.25" dy="0.25" layer="1" roundness="100"/>
+<smd name="2" x="-0.5" y="0.25" dx="0.25" dy="0.25" layer="1" roundness="100"/>
+<smd name="3" x="0" y="0.25" dx="0.25" dy="0.25" layer="1" roundness="100"/>
+<smd name="4" x="0.5" y="0.25" dx="0.25" dy="0.25" layer="1" roundness="100"/>
+<smd name="5" x="0.5" y="-0.25" dx="0.25" dy="0.25" layer="1" roundness="100"/>
+<smd name="6" x="0" y="-0.25" dx="0.25" dy="0.25" layer="1" roundness="100"/>
+<circle x="-0.6" y="-0.35" radius="0.070709375" width="0" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="N-MOSFET">
@@ -423,6 +436,16 @@ INTERNATIONAL RECTIFIER, irg4bc15ud-s.pdf</description>
 <connect gate="G$1" pin="D" pad="3"/>
 <connect gate="G$1" pin="G" pad="1"/>
 <connect gate="G$1" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MICROFOOT" package="MICROFOOT">
+<connects>
+<connect gate="G$1" pin="D" pad="4 5"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="2 3 6"/>
 </connects>
 <technologies>
 <technology name=""/>
