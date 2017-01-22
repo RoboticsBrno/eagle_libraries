@@ -136,6 +136,7 @@
 <connect gate="G$1" pin="TEST@5" pad="TEST@5"/>
 <connect gate="G$1" pin="TEST@6" pad="TEST@6"/>
 <connect gate="G$1" pin="VDD3V" pad="VDD3V"/>
+<connect gate="G$1" pin="VDD5V" pad="VDD5V"/>
 </connects>
 <technologies>
 <technology name=""/>
