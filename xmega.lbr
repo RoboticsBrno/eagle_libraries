@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.25" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -372,8 +372,8 @@
 <text x="6.75" y="5.55" size="0.25" layer="100" ratio="10" rot="R180">VCC</text>
 <text x="-3.05" y="6.75" size="0.25" layer="100" ratio="10" rot="R270">AVCC</text>
 <text x="-2.55" y="6.75" size="0.25" layer="100" ratio="10" rot="R270">GND</text>
-<text x="1.95" y="6.75" size="0.25" layer="100" ratio="10" rot="R270">VCC</text>
-<text x="2.45" y="6.75" size="0.25" layer="100" ratio="10" rot="R270">GND</text>
+<text x="2.45" y="6.75" size="0.25" layer="100" ratio="10" rot="R270">VCC</text>
+<text x="1.95" y="6.75" size="0.25" layer="100" ratio="10" rot="R270">GND</text>
 <text x="-3.65" y="6" size="0.15" layer="100" ratio="10" rot="R270">AREF</text>
 <text x="-4.65" y="6" size="0.15" layer="100" ratio="10" rot="R270">DAC0</text>
 <text x="-5.15" y="6" size="0.15" layer="100" ratio="10" rot="R270">DAC1</text>
