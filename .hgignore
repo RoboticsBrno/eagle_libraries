@@ -1,5 +1,0 @@
-syntax: glob
-eagle.epf
-**.[bls]\#[\#1-9]
-**.orig
-scripts
