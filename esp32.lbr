@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="9.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -132,6 +133,12 @@
 <description>&lt;b&gt;ESP32 Eagle Library&lt;/b&gt;
 
 &lt;p&gt;This library includes package footprints for modules derived from &lt;a href="http://www.espressif.com/en/products/hardware/esp32/overview"&gt;Espressif Systems ESP32 SoC&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt; Modified by &lt;a href="https://github.com/RoboticsBrno"&gt;RoboticsBrno&lt;/a&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;add device ESP-WROOM-32
+&lt;/ul&gt;
+
 
 &lt;hr /&gt;
 &lt;br /&gt;
@@ -387,16 +394,18 @@
 <wire x1="6.5" y1="1.8" x2="9.5" y2="1.8" width="0.127" layer="51"/>
 <wire x1="9.5" y1="1.8" x2="9.5" y2="5.8" width="0.127" layer="51"/>
 <wire x1="9.5" y1="5.8" x2="6.5" y2="5.8" width="0.127" layer="51"/>
-<wire x1="-8" y1="48" x2="-8" y2="30" width="0.127" layer="51"/>
-<wire x1="-8" y1="30" x2="8" y2="30" width="0.127" layer="51"/>
-<wire x1="8" y1="30" x2="8" y2="48" width="0.127" layer="51"/>
-<wire x1="8" y1="48" x2="-8" y2="48" width="0.127" layer="51"/>
+<wire x1="-8" y1="48" x2="-8" y2="30" width="0.127" layer="48"/>
+<wire x1="-8" y1="30" x2="8" y2="30" width="0.127" layer="48"/>
+<wire x1="8" y1="30" x2="8" y2="48" width="0.127" layer="48"/>
+<wire x1="8" y1="48" x2="-8" y2="48" width="0.127" layer="48"/>
 <wire x1="-9" y1="48.2" x2="-9" y2="29" width="0.127" layer="51"/>
 <wire x1="-9" y1="29" x2="9" y2="29" width="0.127" layer="51"/>
 <wire x1="9" y1="29" x2="9" y2="48.2" width="0.127" layer="51"/>
 <wire x1="-4" y1="0" x2="-4" y2="-0.5" width="0.127" layer="51"/>
 <wire x1="-4" y1="-0.5" x2="4" y2="-0.5" width="0.127" layer="51"/>
 <wire x1="4" y1="-0.5" x2="4" y2="0" width="0.127" layer="51"/>
+<text x="0" y="1.27" size="1.27" layer="21" rot="SR0" align="bottom-center">USB</text>
+<text x="-5.842" y="31.75" size="1.27" layer="21" rot="SR0" align="bottom-center">ESP</text>
 </package>
 </packages>
 <symbols>
